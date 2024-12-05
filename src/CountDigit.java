@@ -3,9 +3,11 @@
 // input = 2357
 // output = 4
 
+import java.io.IOException;
+
 public class CountDigit
 {
-    public static int count(int num)
+    public static int countDigits (int num)
     {
         int count = 0;
         while (num>0)
@@ -18,7 +20,8 @@ public class CountDigit
 
     public static void main(String[] args)
     {
-        System.out.println(count(5683));
+        System.out.println(countDigits(212));
+
     }
 }
 
